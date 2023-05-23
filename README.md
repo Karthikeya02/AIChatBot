@@ -1,4 +1,7 @@
 ## AI Chat Bot
+
+Prototype: https://Karthikeya02.github.io/AIChatBot
+
 #### The purpose of this project is to:
 Develop an AI Chatbot that provides support and guidance to students experiencing mental health issues.
 Issues related to anxiety, stress, and depression, among other mental health challenges.
