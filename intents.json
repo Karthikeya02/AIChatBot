@@ -1,0 +1,64 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey there", "Greetings"],
+      "responses": ["Hello! How can I assist you today?", "Hi! How can I help you?", "Welcome! How can I support you?"],
+      "contexts": []
+    },
+    {
+      "tag": "stress",
+      "patterns": ["I'm feeling stressed", "I can't handle the pressure", "I'm overwhelmed with work"],
+      "responses": ["I understand that dealing with stress can be challenging. Let's work through it together. What specific areas are causing you the most stress?", "Take a deep breath. It's normal to feel stressed. Can you share more about what's been bothering you lately?"],
+      "contexts": []
+    },
+    {
+      "tag": "bullying",
+      "patterns": ["I'm being bullied", "Someone is harassing me", "I feel unsafe at school"],
+      "responses": ["I'm really sorry to hear that you're going through this. Your safety is important. Have you spoken to a trusted adult or teacher about the situation?", "Bullying is unacceptable. Remember, you're not alone. It's important to report the incidents to ensure your well-being. Can you share more details about what's been happening?"],
+      "contexts": []
+    },
+    {
+      "tag": "relationship_issues",
+      "patterns": ["I'm having trouble in my relationship", "My partner and I are constantly arguing", "I feel distant from my loved ones", "I broke up"],
+      "responses": ["Relationships can be challenging. It's important to communicate openly and honestly with your partner or loved ones. Can you share more about the specific issues you're facing?", "Relationships require effort from both sides. Let's talk about the challenges you're experiencing. Understanding the root causes can help find solutions."],
+      "contexts": []
+    },
+    {
+      "tag": "family_issues",
+      "patterns": ["I'm having problems with my family", "I feel misunderstood by my parents", "There's tension at home"],
+      "responses": ["Family conflicts can be tough. Remember, open and respectful communication is key. Can you provide more details about the specific issues you're facing?", "Family dynamics can be complex. Let's talk about your concerns. Sharing your thoughts and feelings might help gain clarity and find ways to improve the situation."],
+      "contexts": []
+    },
+    {
+      "tag": "student_depression",
+      "patterns": ["I'm struggling with depression", "I feel depressed", "I can't shake off this sadness", "Dealing with depression"],
+      "responses": ["I'm really sorry to hear that you're feeling this way. Remember that you're not alone. It's important to reach out to someone you trust, such as a counselor, teacher, or family member. They can provide support and help you find the resources you need."],
+      "contexts": []
+    },
+    {
+      "tag": "self-care",
+      "patterns": ["What can I do to take care of myself?", "How can I manage my depression?", "Are there any self-help strategies for depression?"],
+      "responses": ["Self-care plays an essential role in managing depression. Prioritizing activities like exercise, maintaining a healthy routine, practicing mindfulness, and connecting with supportive friends or family can make a positive impact. It's also crucial to consider seeking professional help for personalized strategies. Would you like more information on self-care techniques?", "Self-care is vital for managing depression. Engaging in activities you enjoy, practicing relaxation techniques, and establishing a support network are valuable. While these strategies can help, remember that professional guidance is essential for comprehensive treatment. Would you like resources on self-care methods?"],
+      "contexts": []
+    },
+    {
+      "tag": "stigma",
+      "patterns": ["I'm afraid of seeking help due to the stigma", "I'm worried about being judged for my mental health", "How can I overcome the stigma associated with depression?"],
+      "responses": ["The stigma around mental health can be challenging, but remember that seeking help is a courageous step. It's essential to prioritize your well-being over societal opinions. Surround yourself with understanding and supportive individuals who can provide a safe space. Would you like resources on combating mental health stigma?", "The fear of judgment can be daunting, but remember that your mental health matters. Break the silence by sharing your struggles with trusted individuals who will support and understand you. Overcoming the stigma starts with open conversations. Can I provide you with resources on combating mental health stigma?"],
+      "contexts": []
+    },
+    {
+      "tag": "thank_you",
+      "patterns": ["Thank you", "Thanks a lot", "I appreciate your help"],
+      "responses": ["You're welcome! I'm here to assist you. If you have any more questions, feel free to ask.", "You're welcome! Remember, I'm here for you whenever you need support."],
+      "contexts": []
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "Bye", "See you later"],
+      "responses": ["Goodbye! Take care of yourself. Remember, I'm here whenever you need someone to talk to.", "Goodbye! Don't hesitate to reach out if you need assistance in the future. Take care!"],
+      "contexts": []
+    }
+  ]
+}
